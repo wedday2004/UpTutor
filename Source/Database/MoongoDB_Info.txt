@@ -1,0 +1,6 @@
+hostname: cluster0-bezjf.mongodb.net
+username: lexuankha2409
+password: 123456kha
+dbname: TutorUpworkDB
+
+url_connection: "mongodb+srv://lexuankha2409:123456kha@cluster0-bezjf.mongodb.net/TutorUpworkDB?retryWrites=true&w=majority"

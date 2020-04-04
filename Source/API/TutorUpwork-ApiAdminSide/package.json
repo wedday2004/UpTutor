@@ -1,0 +1,53 @@
+{
+  "name": "apiclientside",
+  "version": "0.0.0",
+  "private": true,
+  "main": "server",
+  "scripts": {
+    "start": "node server",
+    "dev": "node server",
+    "test": "mocha  src/*.test.js --exit"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "git-branch-is -r \"^((?!master).)*$\" && lint-staged",
+      "pre-push": "git-branch-is -r \"^((?!master).)*$\" && npm test"
+    }
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.0",
+    "http-errors": "~1.6.3",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.13",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "mongoose-unique-validation": "^0.1.0",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-branch-is": "^3.1.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.4.3",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4"
+  }
+}

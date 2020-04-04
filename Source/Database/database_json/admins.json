@@ -1,0 +1,6 @@
+{ "_id" : { "$oid" : "5de79a52cd75c40d73c3999c" }, "name" : "Kha Leo", "email" : "lexuankha2409@gmail.com", "password" : "$2b$10$A1NvNUnXScQRFGMC8hl/s.iysJ43a9/kTFLGCsZki5eL94KrnwXH6", "role" : "master", "__v" : 0 }
+{ "_id" : { "$oid" : "5dea351b19c8ab21c115305c" }, "name" : "Dang Quang Huy", "email" : "tester@gmail.com", "password" : "$2b$10$LRaD/0EFZw3nprwS6.cA2u6SOWjRR/i08APqAj4jBtN.K/Szmh1Au", "__v" : 0 }
+{ "_id" : { "$oid" : "5debe9c43e09ce0343e648a1" }, "name" : "secret1111", "email" : "khongcoemail@gmail.com", "password" : "$2b$10$Sc2vYLXjQMAOyIwnWKmw7OT5TbANxTbvckAnNvSwKbPq3/EpUczWC", "__v" : 0 }
+{ "_id" : { "$oid" : "5def1cfbd4f9b003107c509c" }, "name" : "nuttertools1", "email" : "kkkk1@gmail.com", "password" : "$2b$10$c2.pd6QdQ3hDyjBE1BE2M.4DqYbNlzfN2Ec9.lrY413NyNDpxQimC", "__v" : 0 }
+{ "_id" : { "$oid" : "5defc8b54ef05d03412915b4" }, "name" : "tran dinh khai", "email" : "hihihehe@gmail.com", "password" : "$2b$10$gJtaUtago7.G0bLlQ5FhJO32TC/lr9txqV1mra.2.R9qrOLtlbARW", "__v" : 0 }
+{ "_id" : { "$oid" : "5e0389bedd4b110017d4e3e7" }, "name" : "Khải", "email" : "admin@admin.com", "password" : "$2b$10$6qQnVRZmzK65fua1n9/3MergAE/QW1STrHdDm0lg41722K1KNxjOK", "__v" : 0 }

@@ -1,0 +1,42 @@
+import { BackendUrl } from './URL';
+
+const API = {
+  LOGIN: `${BackendUrl}/login`,
+  REGISTER: `${BackendUrl}/register`,
+  AUTHFACE: `${BackendUrl}/facebook`,
+  AUTHGG: `${BackendUrl}/google`,
+  LOAD_SPECIAL_TUTOR_LIST: `${BackendUrl}/tutor/special`,
+  LOAD_ONE_TUTOR: `${BackendUrl}/tutor/:id`,
+  LOAD_ALL_TUTOR: `${BackendUrl}/tutor/all`,
+  LOAD_TUTOR_BY_FILTER: `${BackendUrl}/tutor/filter`,
+  LOAD_ALL_SKILLS: `${BackendUrl}/skill/all`,
+  UPLOAD_AVATAR: `${BackendUrl}/upload`,
+  GET_INFO: `${BackendUrl}/me`,
+  UPDATE_TUTOR_INFO: `${BackendUrl}/tutor`,
+  UPDATE_STUDENT_INFO: `${BackendUrl}/student`,
+  GET_ALL_SKILL: `${BackendUrl}/skill`,
+  VERIFY: `${BackendUrl}/verify`,
+  FACEBOOK: `${BackendUrl}/facebook`,
+  GOOGLE: `${BackendUrl}/google`,
+  LOAD_ONE_STUDENT: `${BackendUrl}/student/:id`,
+  GET_MESS: `${BackendUrl}/conversations`,
+  PAY: `${BackendUrl}/pay/createPaymentUrl`,
+  CREATE_NEW_CONTRACT: `${BackendUrl}/contract/new`,
+  END_CONTRACT: `${BackendUrl}/contract/end`,
+  REPORT_CONTRACT: `${BackendUrl}/contract/report`,
+  GET_ONE_CONVER: `${BackendUrl}/conversations/getOne`,
+  USER_VERIFY: `${BackendUrl}/emailVerify`,
+  REQUEST_VERIFY: `${BackendUrl}/requestVerify`,
+  GET_LIST_COMMENT: `${BackendUrl}/tutor/listcomment/:id`,
+  COMMENT: `${BackendUrl}/tutor/comment`,
+  USER: {
+    CHANGEPASS: `${BackendUrl}/changePassword`,
+    FORGOT_PASS: `${BackendUrl}/forgotPassword`,
+    FORGOT_CODE: `${BackendUrl}/forgotPassword/code`,
+    FORGOT_CHANGE: `${BackendUrl}/forgotPassword/change`,
+  },
+  CHANGE_STT_CONTRACT: `${BackendUrl}/contract/changestate`,
+  GET_LIST_CONTRACT_BY_TIME: `${BackendUrl}/contract/bytimerange`,
+};
+
+export default API;
